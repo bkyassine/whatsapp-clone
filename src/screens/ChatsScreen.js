@@ -2,7 +2,7 @@ import { View, StyleSheet, Text, FlatList } from "react-native";
 import Chats from "../../assets/data/chats.json";
 import ChatListItem from "../components/ChatListItem";
 
-const ChatScreen = () => {
+const ChatsScreen = () => {
   return (
     <FlatList
       data={Chats}
@@ -13,4 +13,4 @@ const ChatScreen = () => {
 
 const styles = StyleSheet.create({});
 
-export default ChatScreen;
+export default ChatsScreen;
